@@ -12,9 +12,11 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.mcas2.misaficiones.databinding.ActivityAficionesBinding;
@@ -34,6 +36,7 @@ public class Aficiones extends AppCompatActivity {
         Paginador paginador = new Paginador(this, getSupportFragmentManager());
         ViewPager viewPager = binding.viewPager;
         viewPager.setAdapter(paginador);
+
     }
 
     @Override
