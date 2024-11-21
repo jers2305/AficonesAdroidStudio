@@ -11,21 +11,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.mcas2.misaficiones.Aficiones;
 import com.mcas2.misaficiones.R;
-import com.mcas2.misaficiones.TiposDormir;
 
-public class Dormir extends Fragment {
+public class Ejercicio extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dormir, container, false);
 
-        Button button = view.findViewById(R.id.buttonDormir);
+        Button button = view.findViewById(R.id.buttonEjercicio);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), TiposDormir.class);
+                Intent intent = new Intent(getActivity(), com.mcas2.misaficiones.Ejercicio.class);
                 startActivity(intent);
             }
         });

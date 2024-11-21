@@ -1,4 +1,4 @@
-package com.mcas2.misaficiones.fr.tiposdormir;
+package com.mcas2.misaficiones.fr.Ejercicio;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,10 +11,10 @@ import androidx.fragment.app.Fragment;
 
 import com.mcas2.misaficiones.R;
 
-public class Placidamente extends Fragment {
+public class Gym extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_dormir1, container, false);
+        return inflater.inflate(R.layout.fragment_dormir2, container, false);
     }
 }

@@ -15,7 +15,7 @@
         />
     <item
         android:id="@+id/myCodeButton"
-        android:title="Mi código"
+        android:title="Mi Github"
         app:showAsAction="never"
         />
 </menu>

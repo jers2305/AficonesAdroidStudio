@@ -2,13 +2,12 @@ package com.mcas2.misaficiones.ui.frmanager;
 
 import android.content.Context;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.mcas2.misaficiones.fr.aficiones.Comer;
-import com.mcas2.misaficiones.fr.aficiones.Dormir;
+import com.mcas2.misaficiones.fr.aficiones.Ejercicio;
 
 public class Paginador extends FragmentPagerAdapter {
 
@@ -25,7 +24,7 @@ public class Paginador extends FragmentPagerAdapter {
             case 0:
                 return new Comer();
             case 1:
-                return new Dormir();
+                return new Ejercicio();
             default:
                 return null;
         }

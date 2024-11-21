@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TiposDormir">
+    tools:context=".Ejercicio">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tiposDormirTabs"
+        android:id="@+id/ejercicoTabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
